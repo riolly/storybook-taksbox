@@ -28,6 +28,8 @@ export default function Task({
         <input
           type="text"
           value={title}
+          // className="text-blue-700"
+          style={{ color: "blue" }}
           readOnly={true}
           name="title"
           placeholder="Input title"
